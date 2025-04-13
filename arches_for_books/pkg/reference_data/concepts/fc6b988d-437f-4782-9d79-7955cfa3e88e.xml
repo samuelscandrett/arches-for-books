@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/0c4974cf-8a0e-4bfb-aa30-f5606da8568a">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/fc6b988d-437f-4782-9d79-7955cfa3e88e">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0c4974cf-8a0e-4bfb-aa30-f5606da8568a"/>
+        <dcterms:title xml:lang="en">{"id": "297ccf7c-10c7-4a49-b74a-3e5bd1b72ade", "value": "Book identifiers"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/720a8a9e-3fac-4c8d-9078-f593b68f5826"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a04e7682-395d-479c-a0de-773fa4f879f6"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:altLabel xml:lang="en">{"id": "8de98332-0dd7-493d-9a30-05e9aaa9d03f", "value": "Digital Object Identifier"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "78a6ee96-2720-480f-85cd-2e66e0c6d18d", "value": "DOI"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a04e7682-395d-479c-a0de-773fa4f879f6">
+    <skos:prefLabel xml:lang="en">{"id": "4c35359d-6674-4bca-b8f0-e6323a3a5e28", "value": "ISBN"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "57849cd0-c63d-4dc4-a0a0-10d2633a0079", "value": "International Standard Book Number"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/fc6b988d-437f-4782-9d79-7955cfa3e88e"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/720a8a9e-3fac-4c8d-9078-f593b68f5826">
+    <skos:inScheme rdf:resource="http://localhost:8000/fc6b988d-437f-4782-9d79-7955cfa3e88e"/>
+    <skos:prefLabel xml:lang="en">{"id": "eee61b8c-0e83-4828-8f58-0a15fa160d13", "value": "ISSN"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "9dfa90f7-4d38-42fd-b8a6-11d7a8979c34", "value": "International Serial Standard Numbers"}</skos:altLabel>
+  </skos:Concept>
+</rdf:RDF>

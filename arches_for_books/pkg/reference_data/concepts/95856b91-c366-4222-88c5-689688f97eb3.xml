@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/95856b91-c366-4222-88c5-689688f97eb3">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/1eeeccdf-c49e-4cb5-a448-915d16199e9f">
+        <skos:prefLabel xml:lang="en">{"id": "0c536bb3-d450-4a9e-bad8-9182b3076a0a", "value": "Signed"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/95856b91-c366-4222-88c5-689688f97eb3"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "7a8226ba-0e07-427f-9dbb-38a78ec9c2c5", "value": "Special features"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c8d3aa12-3802-4412-83b4-f25b75b82f2c">
+        <skos:inScheme rdf:resource="http://localhost:8000/95856b91-c366-4222-88c5-689688f97eb3"/>
+        <skos:prefLabel xml:lang="en">{"id": "89dbc75f-18ec-4c99-9bed-b01078e9e07e", "value": "Sprayed edges"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

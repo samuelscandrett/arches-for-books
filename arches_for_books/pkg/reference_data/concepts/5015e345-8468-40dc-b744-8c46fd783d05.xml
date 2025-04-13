@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/9c21972a-be27-4c1f-869b-ed2a26a991bc">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05">
+        <dcterms:title xml:lang="en">{"id": "f9aefa8d-3fb5-4e4f-9364-d0b21ce5a790", "value": "Fiction Genres"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/89fa43ff-d907-41cc-97df-5a199b0b3ff7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b23414a9-21df-4a17-a400-5c877f68b95b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/33edc5e7-12f8-4223-ab4f-a4748593332a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6b99ba59-cce0-4b84-a0a2-0fc2d73b4b09"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/fcab45e1-2b4b-432a-bb18-39f22ef3300a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9c2f7158-8d4e-4d2c-854f-abc62c6a6df1"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8770197b-7ed1-4da2-9a72-52bce726db54"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/034098e0-4d6b-44c0-a415-4b637ad15188"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e710bad9-f3b2-49a8-bd10-3b5730080eb0"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d2990631-8d80-4a75-b7f1-c5dff0b5bd7e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/52a73273-5398-4847-bcd7-d546e4a7b858"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9198f045-9373-48fd-b32e-6c5480cf2c4f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2cea7807-cbb4-45f4-a797-1ed2ea2ff8c4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/41b9a27b-39fd-477f-ad39-282523d5079b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0bff27fd-c041-466a-af3c-58dec7280e87"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3a94d064-7597-4f69-9d97-4d0a9c2b1965"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a1d4d0d3-7922-4bd4-956c-8f83161557bc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e233d08b-f77f-4cd9-9a47-93fefd437860"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/843f5c85-4af3-4591-ab58-defbb6116357"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/22f85462-f8ef-41b3-a622-61f9a3b6dbfa"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9f4d652c-f66d-4eef-8a43-c430812fcd7d"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "d8f2b5e2-467a-4d56-abfd-7c4c8cf75671", "value": "Space opera"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/029f00f1-8f67-4179-b293-425ef9cbc90f">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "9e7a2c04-7bf0-4a25-a363-96e57843c671", "value": "Regency romance"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d2990631-8d80-4a75-b7f1-c5dff0b5bd7e">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "b9d5ac2d-faa3-457f-a28d-55139dcf3e34", "value": "Folklore"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f9f2fda9-4435-4e46-a7b1-c0567efd4d6b">
+        <skos:prefLabel xml:lang="en">{"id": "d49e017d-caf0-4a34-b593-de25d8e5d6d5", "value": "Legend"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/313ab2d1-20ba-404a-81c4-4c0d85e83919">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "7cae8c9a-d646-4313-9f5b-66b745b85e73", "value": "Fairy tale"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3cf64389-d2f7-4384-b944-94b308a24e08">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "8dc1adc7-0a80-4d77-8adb-3029fff0a8a5", "value": "Animal tale"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/691fe1ba-c88f-4524-a4e8-bb5a870a4480">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "04142540-ac0b-4d83-9990-c647ad5cc6d5", "value": "Parable"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c12eb453-0ee1-4584-9edc-510c3cc49a73">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "65e80578-3308-48b6-9538-9f2d663613af", "value": "Urban legend"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4bed5cb6-d721-4d84-93a3-874d3b5da47b">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "6174f95e-e1c1-455f-a0b2-d377fb8aeee8", "value": "Ghost story"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/25c6ac71-a810-4e29-bc61-4d597e27597d">
+        <skos:prefLabel xml:lang="en">{"id": "9f070c45-f683-4fef-a1e3-a314f32f76da", "value": "Fable"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/16f026d7-bef5-40ff-a2c8-148e2b231e80">
+        <skos:prefLabel xml:lang="en">{"id": "c2308521-8b8a-47bf-9195-0d62d42a22e7", "value": "Myth"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/246e105a-7897-47cb-8801-2629db8f63c0">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "d763cb23-3cd4-4e79-9f1d-cdffd972b6a3", "value": "Personal narrative"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f01fe6f0-5235-4019-aeb9-2186ba032534">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "c8d49322-78ae-43f5-a758-dc03ae289554", "value": "Political"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b23414a9-21df-4a17-a400-5c877f68b95b">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a999f363-b25b-41bb-9c55-7373bffb46aa">
+        <skos:prefLabel xml:lang="en">{"id": "9a64f41f-a9d5-4f0c-89fe-5315204d5859", "value": "Noir"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "c8a8e95d-2b12-4f5f-a41c-7362faaab8ef", "value": "Crime and mystery"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1fff3cb0-b087-4c2d-8d1e-09b70b46164c">
+        <skos:narrower rdf:resource="http://localhost:8000/e63ad449-e802-45d4-a00d-b03a1497acae"/>
+        <skos:narrower rdf:resource="http://localhost:8000/66b2c538-c0b7-4e1b-aaf8-47bd74a6a637"/>
+        <skos:prefLabel xml:lang="en">{"id": "13dba1f0-4c6b-4b57-80de-1ec6be6aca32", "value": "Mystery"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/062253c1-66bd-4a71-805f-d1dba78f016a"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/07d9a2da-7356-4efe-9e71-e71eb1010004">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "64bd25b5-3cc0-4f5a-816e-3ce53d4d674a", "value": "Legal thriller"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/740e2f70-ef9d-4c5c-b691-6ece83d815d4">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "fadce187-f6aa-4bad-be87-fac14109f0ec", "value": "Caper"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/427ba7f5-a310-4644-9fda-252a5451f1f5">
+        <skos:prefLabel xml:lang="en">{"id": "ab287a34-be34-43e9-8e55-8c20d9cfa022", "value": "Giallo"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2cea7807-cbb4-45f4-a797-1ed2ea2ff8c4">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "06270683-991a-40c2-baf2-3737bfabb93d", "value": "Pop culture"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c77b4e7-a7ff-4f1a-bfe0-c2d83d437b42">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "b463c9b5-d331-45e3-80ab-83c674186c36", "value": "Apocalyptic and post-apocalyptic"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cc2c13d4-cd2e-44b0-9917-cf2238c7cb4c">
+    <skos:narrower rdf:resource="http://localhost:8000/029f00f1-8f67-4179-b293-425ef9cbc90f"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "e136eaed-f93c-417e-a341-986f21179e59", "value": "Historical romance"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c7558599-cdec-408a-a670-b4aab39c3075">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "269c3d72-bc3f-4642-b786-c3c072c09076", "value": "Techno-thriller"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e710bad9-f3b2-49a8-bd10-3b5730080eb0">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "3db4dc0b-9c34-4403-b8ff-2fff0b8a641a", "value": "Urban"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f6d968b4-b1fd-4b64-8567-570f05b3defd">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "1ee5c511-ad3b-464f-946c-335d4b8b56cf", "value": "Nautical fiction"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/af96bb81-96fe-4317-a733-38f3c76bc14d">
+        <skos:prefLabel xml:lang="en">{"id": "25867670-de94-43fe-bb3c-139e3b01c042", "value": "Pirate novel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/70e952e2-eb05-423f-83c2-580013a63185">
+    <skos:prefLabel xml:lang="en">{"id": "b47a776e-697f-4ac7-91a4-e490019e94fc", "value": "Dystopian"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7d4552eb-9ed4-4ae8-8fbc-1d10f67b5601">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "0b9aa7b1-a6a7-4689-915e-1097aaac89b3", "value": "Cyberpunk"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/36df27a4-2dff-4ab4-b8ef-ccd44b36890c">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/25abad22-b4e8-4aea-84d7-50b62bec7a6e">
+        <skos:prefLabel xml:lang="en">{"id": "025587ac-76a4-4373-aa26-5c76339989b4", "value": "Sword-and-sandal"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b5f01004-fc57-4fc7-a38a-b9847c76ed91">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "1f85bb0f-17a6-4f85-aa94-e92f58c44b4a", "value": "Sword-and-soul"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5cdd6d6d-bb21-43dd-b4f4-9fb22803eb23">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "ad14d406-1f49-4e09-8f96-519a0c8fe417", "value": "Lost world"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/081e6c5e-58e9-4991-b8b9-6da963596f1c">
+        <skos:prefLabel xml:lang="en">{"id": "9d03540e-bd36-48b1-b816-6c4efa340a16", "value": "Heroic fantasy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "bdffa6ee-f4f0-4af3-b967-482f00fc7dae", "value": "Adventure fantasy"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bdb482be-5844-4119-ad5a-c3f4c674960b">
+        <skos:prefLabel xml:lang="en">{"id": "50481baf-836c-4e1d-a379-2ebff6b2b5a8", "value": "Wuxia"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/83bcfc11-32cc-4e10-aaa5-9ccdd2c8c264">
+        <skos:prefLabel xml:lang="en">{"id": "d2340e5b-260b-4c98-8959-698c571dbbac", "value": "Sword-and-sorcery"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9762d6f7-753e-4fbf-8947-e98ec5657caf">
+    <skos:prefLabel xml:lang="en">{"id": "861547ab-2156-4071-a681-5a4a6f1a5839", "value": "Contemporary"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3da95001-999b-4a8a-8cac-88d517e4c330">
+    <skos:prefLabel xml:lang="en">{"id": "80a31c8a-0a94-4103-81da-c76bb459ac8b", "value": "New adult fiction"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/41b9a27b-39fd-477f-ad39-282523d5079b">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3023af17-6791-492b-a407-7bf644233c66">
+        <skos:prefLabel xml:lang="en">{"id": "9870e524-c02f-49c9-94f0-07c6dc609b54", "value": "Tall tale"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/73db7f0e-e7fe-4040-b2ce-c5ddbc664b3c">
+        <skos:prefLabel xml:lang="en">{"id": "d5732e13-59bb-43fb-972c-d748910f9bf3", "value": "Parody"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "32360d71-18ef-4707-aa72-d9d19e0dfa7f", "value": "Comedy"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/80dcb280-a36b-4230-b669-2601df135b7f">
+        <skos:prefLabel xml:lang="en">{"id": "15f756fb-6067-4c89-aaf0-fe694f478cdf", "value": "Tragicomedy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ede23ceb-e961-4e6b-856e-b1de0462fcd5">
+        <skos:prefLabel xml:lang="en">{"id": "e3c17260-5bc9-4978-b8b9-0c92d4cf7cac", "value": "Fantasy comedy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24928e33-6151-4375-a5f7-424e8eeee8e5">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "c7d07d7e-36ff-4bfe-b2ae-610ccbe6a5c6", "value": "Burlesque"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b193f1d3-62c7-4ef6-a686-53eb36beaa54">
+        <skos:prefLabel xml:lang="en">{"id": "0ca5622e-5d2a-45aa-8ab2-79e4a476f665", "value": "Comedy horror"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f3e58337-5b27-41d8-904b-a0d8db98acf5">
+        <skos:prefLabel xml:lang="en">{"id": "e400b7fb-a573-4066-a7f3-4e35d90738fd", "value": "Science fiction comedy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cfbccf88-b4d5-4ccc-a294-6870ffb24684">
+        <skos:prefLabel xml:lang="en">{"id": "e552810d-9c24-4087-8ff7-562b801f24ca", "value": "Surreal comedy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/034098e0-4d6b-44c0-a415-4b637ad15188">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2fd65f3f-1ae9-4f8f-ae18-c9319cdca566">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "44c4a69f-0213-42bd-8ee0-3d1e02560a4a", "value": "Horror"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dd926fab-72d2-4d37-991d-4e72f9ad6c89">
+        <skos:prefLabel xml:lang="en">{"id": "9ac2cbf1-a6ba-4ea9-97c9-2b0c26361cb3", "value": "Science Fantasy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "012f1a5e-2d71-4548-ac7e-9987fc10f2ac", "value": "Speculative fiction"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/12565f0b-0780-478d-bee1-02f6cae37e93">
+        <skos:prefLabel xml:lang="en">{"id": "1f9f48b8-34be-46d2-ac16-ed47cf320323", "value": "Fantasy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/56aefec4-5141-4cf0-b623-f9534714a75a">
+        <skos:narrower rdf:resource="http://localhost:8000/9c21972a-be27-4c1f-869b-ed2a26a991bc"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "67ca5996-85f1-4a42-bc1d-73cb1677ca1e", "value": "Science fiction"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/9c77b4e7-a7ff-4f1a-bfe0-c2d83d437b42"/>
+        <skos:narrower rdf:resource="http://localhost:8000/c25348da-d681-4388-9974-256a30d68c80"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1060c40c-8514-4f39-9574-704bc65cee5b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dc9bae47-c17f-4531-86a9-a392e4f8f688">
+        <skos:prefLabel xml:lang="en">{"id": "0e2e2e7e-2475-4ea2-b790-e5a4149f718c", "value": "Superhero"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8770197b-7ed1-4da2-9a72-52bce726db54">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5289541d-7d1d-41dd-836d-5d418d249cda">
+        <skos:narrower rdf:resource="http://localhost:8000/a4651ca9-e889-4817-a8b5-4adf3880896d"/>
+        <skos:prefLabel xml:lang="en">{"id": "04d7b6a8-5b82-481c-bdea-7e73907d762c", "value": "Nautical"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "bd4d50af-03c9-4ab2-93c9-8affd8dc0ae3", "value": "Action and adventure"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/647409f7-ec40-41f3-acfe-6b22cc44c444">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "ccb992a2-7869-4b04-9a8d-f0ba0e79719f", "value": "Robinsonade"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9899ed6-bec3-4642-a6c0-07feb16af3d4">
+        <skos:prefLabel xml:lang="en">{"id": "08efaa80-582f-423f-adb5-84cdef247fc1", "value": "Swashbuckler"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f3e4f05b-a270-41c5-8864-fa0e8ce97766">
+        <skos:prefLabel xml:lang="en">{"id": "37570c93-ea6c-489d-b5bf-cde820ceed3c", "value": "Spy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:narrower rdf:resource="http://localhost:8000/801910f3-18f5-488b-8dd0-196e51e82e10"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/64522598-c64f-4a74-b1af-ece2818e9cbc">
+        <skos:prefLabel xml:lang="en">{"id": "fcd89be5-40ce-4640-afd9-d7e7ec2d7477", "value": "Subterranean"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/be5d6d4a-99f3-44f0-927a-66f6288a209f">
+        <skos:prefLabel xml:lang="en">{"id": "2940bb7c-ee4e-453a-9935-b2ceace5963b", "value": "Superhero"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/36df27a4-2dff-4ab4-b8ef-ccd44b36890c"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1060c40c-8514-4f39-9574-704bc65cee5b">
+    <skos:prefLabel xml:lang="en">{"id": "eb5f97ea-2de9-41e9-8299-0511df3f9ef0", "value": "Utopian and dystopian"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b4e4f8cc-c253-4105-ae68-1dbadd6e3e4f">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "90d043ab-30e0-4d08-bae1-7cc22c7b7a0b", "value": "Utopian"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/70e952e2-eb05-423f-83c2-580013a63185"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7bbb86d5-4c39-445d-9c53-8d1ff3697bf4">
+    <skos:prefLabel xml:lang="en">{"id": "77b865e4-058f-4f24-9673-0c2ba4587bbd", "value": "Children's"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/83216344-c535-4514-9516-9ddb938da7ff">
+    <skos:prefLabel xml:lang="en">{"id": "11a87c06-ca5d-4930-927b-7edb6cae81f8", "value": "Erotic "}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c5b3b87e-4328-4db2-ac68-129a323730c3">
+    <skos:prefLabel xml:lang="en">{"id": "419dc9be-1f57-4a73-830f-e6a1a10b39bb", "value": "Psychological"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fcab45e1-2b4b-432a-bb18-39f22ef3300a">
+    <skos:prefLabel xml:lang="en">{"id": "dac308b5-53a6-40ee-a401-f7ff04546865", "value": "By age"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/66995081-5290-40c0-a26f-95186ef4c289">
+        <skos:prefLabel xml:lang="en">{"id": "083a85fd-8c85-4145-89c6-76d3fed26279", "value": "Young adult"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower rdf:resource="http://localhost:8000/7bbb86d5-4c39-445d-9c53-8d1ff3697bf4"/>
+    <skos:narrower rdf:resource="http://localhost:8000/3da95001-999b-4a8a-8cac-88d517e4c330"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/801910f3-18f5-488b-8dd0-196e51e82e10">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "5789ddea-573a-4cc0-ad82-2e7b4d76a00c", "value": "Spy-Fi"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/843f5c85-4af3-4591-ab58-defbb6116357">
+    <skos:narrower rdf:resource="http://localhost:8000/f6d968b4-b1fd-4b64-8567-570f05b3defd"/>
+    <skos:prefLabel xml:lang="en">{"id": "f9a376eb-40ae-4e2f-852a-b6b33e530a6a", "value": "Historical"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/028a5aea-1c73-4f54-b72e-eaac2a1a2180">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "9e5a24d2-7354-418a-a50b-88f2e0591843", "value": "Alternate history"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/cc2c13d4-cd2e-44b0-9917-cf2238c7cb4c"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fd02d65d-a709-41d1-8108-590cc9034e74">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "804af971-798b-4086-9d0e-2861565a4df8", "value": "Historical fantasy"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/11485d91-3dee-4ec5-a44b-1b70a079c9da">
+        <skos:prefLabel xml:lang="en">{"id": "d3448d31-e757-42c0-8771-7bc2dc14ba79", "value": "Historical mystery"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9f4d652c-f66d-4eef-8a43-c430812fcd7d">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "05f76b98-bbf7-493f-a301-88750432f6b0", "value": "Western"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e63ad449-e802-45d4-a00d-b03a1497acae">
+    <skos:prefLabel xml:lang="en">{"id": "18e2de2f-8bbc-4c66-b44f-6e250dc1ef82", "value": "Detective"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f338158a-1c60-4d91-b00e-ffff0cb8cf5a">
+    <skos:prefLabel xml:lang="en">{"id": "8d1f48e6-7de0-44c9-9bb1-b50f50b4872f", "value": "Romantic suspense"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0bff27fd-c041-466a-af3c-58dec7280e87">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dbfe45e4-b8a9-4f93-9e10-5f10bbd15798">
+        <skos:prefLabel xml:lang="en">{"id": "9f6e0963-ca2d-4e22-93e1-f0ab07e2b41c", "value": "Financial"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cf3d40fa-3781-46fb-89aa-22e8a14dd842">
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+        <skos:prefLabel xml:lang="en">{"id": "7270e46a-438c-46f9-ab6e-dac9e75c8b77", "value": "Legal"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/f338158a-1c60-4d91-b00e-ffff0cb8cf5a"/>
+    <skos:narrower rdf:resource="http://localhost:8000/c5b3b87e-4328-4db2-ac68-129a323730c3"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:narrower rdf:resource="http://localhost:8000/c7558599-cdec-408a-a670-b4aab39c3075"/>
+    <skos:narrower rdf:resource="http://localhost:8000/f01fe6f0-5235-4019-aeb9-2186ba032534"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2ae8ddcf-a914-4752-98a4-76c005776ee5">
+        <skos:prefLabel xml:lang="en">{"id": "74cfc417-ffb0-4158-914b-1c779f322bf1", "value": "Conspiracy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "22891f9e-f09b-48a4-b99e-a8218b970e76", "value": "Thriller"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/83216344-c535-4514-9516-9ddb938da7ff"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3a94d064-7597-4f69-9d97-4d0a9c2b1965">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "f2930a57-c2ff-4bdc-ab13-8ae2904aab04", "value": "Romance"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/9762d6f7-753e-4fbf-8947-e98ec5657caf"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/060eea71-2cf9-4d3a-a884-62a00c6f760b">
+        <skos:prefLabel xml:lang="en">{"id": "bccb9b24-58a5-497e-96e3-7269bbf36374", "value": "Romantic fantasy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e233d08b-f77f-4cd9-9a47-93fefd437860">
+    <skos:prefLabel xml:lang="en">{"id": "57ead038-0000-4607-9f54-f6b4ae7337cd", "value": "Religious"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c25348da-d681-4388-9974-256a30d68c80">
+    <skos:prefLabel xml:lang="en">{"id": "26189864-7503-4e02-88bd-126ff65f8783", "value": "Space Western"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/33edc5e7-12f8-4223-ab4f-a4748593332a">
+    <skos:prefLabel xml:lang="en">{"id": "67196438-1411-4046-aa67-b0cefaeef7eb", "value": "Classic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6b99ba59-cce0-4b84-a0a2-0fc2d73b4b09">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "cdade1db-68ca-46d3-bef1-ac84513e1068", "value": "Satire"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/062253c1-66bd-4a71-805f-d1dba78f016a">
+    <skos:prefLabel xml:lang="en">{"id": "f17b964e-d7d3-4586-a1b8-a7f9f3dcaf45", "value": "City mysteries"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a1d4d0d3-7922-4bd4-956c-8f83161557bc">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "38ca0145-4be9-4dd3-aea0-dcda5bf669c6", "value": "Coming-of-age"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c2f7158-8d4e-4d2c-854f-abc62c6a6df1">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "a103cfcf-f2f9-4e8f-8a70-ff11d3fe854d", "value": "Epic"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/52a73273-5398-4847-bcd7-d546e4a7b858">
+    <skos:prefLabel xml:lang="en">{"id": "cdeaa2ac-5619-4d78-9ded-8da412ac2440", "value": "Pastoral"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/89fa43ff-d907-41cc-97df-5a199b0b3ff7">
+    <skos:prefLabel xml:lang="en">{"id": "cd52f3ea-52b5-4bb1-be93-e53db507615f", "value": "Postmodern"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/66b2c538-c0b7-4e1b-aaf8-47bd74a6a637">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "e45da0b8-8f74-44f0-952e-5d78803bdd91", "value": "Cozy mystery"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9198f045-9373-48fd-b32e-6c5480cf2c4f">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "326b2ba6-d8a3-4bde-b5d5-5427be21bf19", "value": "Philosophical"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a4651ca9-e889-4817-a8b5-4adf3880896d">
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+    <skos:prefLabel xml:lang="en">{"id": "4fe227e4-7db2-4579-88b3-7871b547fb34", "value": "Pirate"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/22f85462-f8ef-41b3-a622-61f9a3b6dbfa">
+    <skos:prefLabel xml:lang="en">{"id": "6c6e073b-ce76-4559-8147-df4e1cb001fa", "value": "Encyclopedic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5015e345-8468-40dc-b744-8c46fd783d05"/>
+  </skos:Concept>
+</rdf:RDF>

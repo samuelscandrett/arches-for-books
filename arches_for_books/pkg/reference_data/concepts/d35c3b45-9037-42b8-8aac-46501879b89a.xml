@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/f9abd5ff-22c1-444e-b98b-0b19d5d39b9b">
+    <skos:prefLabel xml:lang="en">{"id": "f7ec707a-250e-4c1b-905b-671576e37a9d", "value": "Bibliography"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a05164f7-d541-4bb7-9d2f-383a0d511da4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1a3b55c8-d387-4139-abe5-9356945a8917"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4cdcc760-36ef-4796-8124-bf017ed70d92"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f9abd5ff-22c1-444e-b98b-0b19d5d39b9b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ab8e2e03-5ebe-4f56-87f8-ab2c83e26d6a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2a206e29-9801-491c-9db5-cfac3626be37"/>
+        <dcterms:title xml:lang="en">{"id": "5010289d-8932-4a51-8f41-f0090eeebfda", "value": "Nonfiction Genres"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f6a3a833-6346-4f75-9905-258290e94638"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0262d9be-99c4-4c7b-b729-0e51e6d40314"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9679a4bc-07f0-4d56-96c3-4529a5877981"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0ee2f42e-645c-44a8-a531-c190872fa863"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/69ff30da-75b4-4dd5-ab15-5dc9905a1b59"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e6d30a69-5150-4140-a84a-665fe679bcc5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3d2541e8-ed68-4f60-94aa-35cdaa6e77d5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d0caff27-4ead-438a-b6e6-47ee52dba215"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3d2541e8-ed68-4f60-94aa-35cdaa6e77d5">
+    <skos:prefLabel xml:lang="en">{"id": "96ed0180-3c72-47b2-a71b-11c0c798c73a", "value": "Consilia"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/69ff30da-75b4-4dd5-ab15-5dc9905a1b59">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "5f10f040-d535-462b-8f37-670f7471ae2f", "value": "Travel"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0262d9be-99c4-4c7b-b729-0e51e6d40314">
+    <skos:prefLabel xml:lang="en">{"id": "92f9e0bd-04e4-4d06-abd9-5112d78c191e", "value": "Academic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5974f557-7f2c-4641-8aea-5fad71564fb9">
+        <skos:prefLabel xml:lang="en">{"id": "3433498d-ebec-4e10-8c13-af3844675604", "value": "Technical report"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/26a2a6b3-1823-428e-ae84-dd3a4086b3c4">
+        <skos:prefLabel xml:lang="en">{"id": "8cee6849-65bf-4802-9a16-ebb6690f87fc", "value": "Research article"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a5276930-1ecf-48cc-851b-873ee642c394">
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+        <skos:prefLabel xml:lang="en">{"id": "2a5b65aa-5250-4c3e-b0b0-52f2af1d3b8a", "value": "Textbook"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/84b1f2b9-ff70-4765-8f5c-4fb03485111b">
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+        <skos:prefLabel xml:lang="en">{"id": "60bfc060-91e1-4ec2-8cba-3b006e4dd99f", "value": "Scientific"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/20b38443-446b-49fc-b6dc-6c285a393a44">
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+        <skos:prefLabel xml:lang="en">{"id": "576f1832-cd30-490f-87c5-e0f25e58d2e7", "value": "Thesis"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ba57c8b6-8e9b-4c11-9e01-d124ce781d51">
+        <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+        <skos:prefLabel xml:lang="en">{"id": "138714f8-0630-4dff-98d7-b790e0f960e1", "value": "Literature review"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0ee2f42e-645c-44a8-a531-c190872fa863">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "1c705a39-739c-44fc-b7fe-395c86503600", "value": "Self-help"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4cdcc760-36ef-4796-8124-bf017ed70d92">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "9af75b60-93c7-4eab-b44b-724973d95fac", "value": "Cookbook"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d0caff27-4ead-438a-b6e6-47ee52dba215">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "4e963732-ffa8-4b86-96b0-3e64cb3b2e22", "value": "True crime"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9679a4bc-07f0-4d56-96c3-4529a5877981">
+    <skos:prefLabel xml:lang="en">{"id": "b64156b3-00e7-408f-99fe-4857ab23d2e3", "value": "Reference work"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ab8e2e03-5ebe-4f56-87f8-ab2c83e26d6a">
+    <skos:prefLabel xml:lang="en">{"id": "7bfd0f06-b752-46ba-af82-303543309441", "value": "Journalistic writing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f6a3a833-6346-4f75-9905-258290e94638">
+    <skos:prefLabel xml:lang="en">{"id": "4dd82576-b0c7-480e-b9e1-61b6318ddabd", "value": "Biography"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1a3b55c8-d387-4139-abe5-9356945a8917">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "52da0fbf-4b68-4b4c-8dda-7f4910b696c0", "value": "Non-fiction novel"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2a206e29-9801-491c-9db5-cfac3626be37">
+    <skos:prefLabel xml:lang="en">{"id": "9abefe3f-689c-4f2a-9e74-6f01c7b28276", "value": "Creative nonfiction"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e6d30a69-5150-4140-a84a-665fe679bcc5">
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+    <skos:prefLabel xml:lang="en">{"id": "b6c48605-f46b-4cb5-bdc4-ed0b060edb46", "value": "Essay"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a05164f7-d541-4bb7-9d2f-383a0d511da4">
+    <skos:prefLabel xml:lang="en">{"id": "93d8ebc9-f750-42f6-8c08-00a51c98def2", "value": "Obituary"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d35c3b45-9037-42b8-8aac-46501879b89a"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/159edc07-cdcf-4061-8f98-47fd077f932e">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/e7a658d8-c72a-427c-9254-f1c0b69ba255">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/159edc07-cdcf-4061-8f98-47fd077f932e"/>
+        <dcterms:title xml:lang="en">{"id": "0fc34816-84ce-4cfd-8fd4-3e400f342259", "value": "Organisation Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c0544564-5c65-4249-962e-2b19512de303"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "992a5383-7d59-4ccb-b42e-33289f68e6c3", "value": "Printer"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c0544564-5c65-4249-962e-2b19512de303">
+    <skos:prefLabel xml:lang="en">{"id": "a5e0fc89-9120-4c5f-ab44-39dd334865b0", "value": "Publisher"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/e7a658d8-c72a-427c-9254-f1c0b69ba255"/>
+  </skos:Concept>
+</rdf:RDF>

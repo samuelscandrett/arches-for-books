@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/3a87ac69-5f29-467c-8665-29b0d622e696">
+    <skos:prefLabel xml:lang="en">{"id": "35877866-42db-4a50-af93-fe91fd6a4124", "value": "Fiction"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/01cbd05e-8c8d-4b96-8afe-a17a96876fda">
+        <dcterms:title xml:lang="en">{"id": "e18d2c2b-6ec6-4a9f-b918-ea066b702986", "value": "Literary Genres"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/83f2750d-7b38-4c12-a3a8-c681cb137e1f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3a87ac69-5f29-467c-8665-29b0d622e696"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/83f2750d-7b38-4c12-a3a8-c681cb137e1f">
+    <skos:prefLabel xml:lang="en">{"id": "a697b6c7-4c66-43e0-80f9-1862f29e5cd6", "value": "Non-fiction"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/01cbd05e-8c8d-4b96-8afe-a17a96876fda"/>
+  </skos:Concept>
+</rdf:RDF>

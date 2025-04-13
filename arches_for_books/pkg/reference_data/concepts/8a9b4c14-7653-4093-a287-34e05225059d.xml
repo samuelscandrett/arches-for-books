@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/c3f64389-1764-4bce-b53b-5f7cfa365eac">
+    <skos:prefLabel xml:lang="en">{"id": "15ef18b1-4169-4d87-badd-d62bb18252d9", "value": "Former"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/8a9b4c14-7653-4093-a287-34e05225059d">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c3f64389-1764-4bce-b53b-5f7cfa365eac"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e38f6aa3-f7f2-460e-b340-3f5a97d86b2d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/74ecdd8e-dbdc-4f22-bbda-07f62496f3f0"/>
+        <dcterms:title xml:lang="en">{"id": "f85e2257-cf35-4ecd-9b20-a65809a395ac", "value": "Currency Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/74ecdd8e-dbdc-4f22-bbda-07f62496f3f0">
+    <skos:prefLabel xml:lang="en">{"id": "aea4a9a5-78db-40f4-8b1b-6c5e82efc3c3", "value": "Current"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8a9b4c14-7653-4093-a287-34e05225059d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e38f6aa3-f7f2-460e-b340-3f5a97d86b2d">
+    <skos:inScheme rdf:resource="http://localhost:8000/8a9b4c14-7653-4093-a287-34e05225059d"/>
+    <skos:prefLabel xml:lang="en">{"id": "7f42902d-f840-470a-891b-491ea1d7aed6", "value": "Historic"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

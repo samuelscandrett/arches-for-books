@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/2a59896e-3ab7-4159-a359-a35c87cacdce">
+        <skos:prefLabel xml:lang="en">{"id": "ba180afc-1c70-443b-818b-8346fecc246d", "value": "Latest"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/72aece99-d246-44b1-8436-05ce490409c6">
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+        <skos:prefLabel xml:lang="en">{"id": "e7f4f9f3-08bb-48f3-b539-5a0cdd95c5f3", "value": "Alternative"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "3d33b1cc-2c01-4a2f-a6ea-048619fbd2a9", "value": "Name Use Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/3d750d14-71a7-4f72-a497-470f20858a60">
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+        <skos:prefLabel xml:lang="en">{"id": "db2fc174-0496-49da-8160-4fb69be8cd05", "value": "Former"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/282e8b39-1e0f-41d1-aff9-f7568ed53c6d">
+        <skos:prefLabel xml:lang="en">{"id": "95004610-9aa2-4e72-9a9e-902e60f2c016", "value": "Primary"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0fabaaa4-2b74-4d80-b722-20cff58bf735">
+        <skos:prefLabel xml:lang="en">{"id": "6cc706b0-73af-45fc-89e2-e81c286369ec", "value": "Formerly identified as "}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/6c2450b4-1164-4344-856d-ba4554bc7c96">
+        <skos:inScheme rdf:resource="http://localhost:8000/b9670d57-cb20-492a-92aa-da1f7d4c723b"/>
+        <skos:prefLabel xml:lang="en">{"id": "44673934-650b-4938-9ca5-b18494787bdb", "value": "Original"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>
