@@ -1,0 +1,11 @@
+{
+  "name": "star-rating",
+  "component": "views/components/widgets/star-rating",
+  "defaultconfig": {
+    "min": "0",
+    "max": "5",
+    "step": "0"
+  },
+  "helptext": "Click or hover over the stars to rate out of 5.",
+  "datatype": "number"
+}

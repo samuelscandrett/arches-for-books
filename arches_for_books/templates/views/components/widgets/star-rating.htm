@@ -1,0 +1,96 @@
+{% extends "views/components/widgets/base.htm" %}
+{% load i18n %}
+{% load static %}
+{% load webpack_static from webpack_loader %}
+{% load render_bundle from webpack_loader %}
+
+
+{% block form %}
+<div class="row widget-wrapper">
+    <div class="form-group">
+        <label class="control-label widget-input-label" for="" data-bind="text:label"></label>        
+        <!-- <div class="col-xs-12">
+            <input 
+                type="range" 
+                data-bind="
+                    attr: { min: min, max: max, step: step }"
+            >  
+        </div> -->
+
+        <div class="rating">
+            <input id="rating1" type="radio" name="rating" value="1">
+            <label for="rating1">1</label>
+            <input id="rating2" type="radio" name="rating" value="2">
+            <label for="rating2">2</label>
+            <input id="rating3" type="radio" name="rating" value="3">
+            <label for="rating3">3</label>
+            <input id="rating4" type="radio" name="rating" value="4">
+            <label for="rating4">4</label>
+            <input id="rating5" type="radio" name="rating" value="5">
+            <label for="rating5">5</label>
+          </div>
+          
+
+    </div>
+</div>
+{% endblock form %}
+
+
+{% block config_form %}
+<label for="input-min" class="control-label">
+    <span data-bind="text: $root.translations.min"></span>
+</label>
+<div class="col-xs-12 pad-no crud-widget-container">
+    <input
+        type="number"
+        id="input-min"
+        class="form-control input-md widget-input"
+        data-bind="
+            attr: {placeholder: $root.translations.min},
+            value: min,
+            valueUpdate: 'keyup'
+        "
+    >
+</div>
+<label for="input-max" class="control-label">
+    <span data-bind="text: $root.translations.max"></span>
+</label>
+<div class="col-xs-12 pad-no crud-widget-container">
+    <input
+        type="number"
+        id="input-max"
+        class="form-control input-md widget-input"
+        data-bind="
+            attr: {placeholder: $root.translations.max},
+            value: max,
+            valueUpdate: 'keyup'
+        "
+    >
+</div>
+<label for="input-step" class="control-label">
+    <span data-bind="text: $root.translations.increment"></span>
+</label>
+<div class="col-xs-12 pad-no crud-widget-container" >
+    <input
+        type="number"
+        id="input-step"
+        class="form-control input-md widget-input"
+        data-bind="
+            attr: {placeholder: $root.translations.incrementSize},
+            value: step,
+            valueUpdate: 'keyup',
+        "
+    >
+</div>
+{% endblock config_form %}
+
+
+{% block report %}
+<dt data-bind="text: label"></dt>
+<dd>
+    <iframe data-bind="attr: { src: YoutubeUrl }" width="560" height="315" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</dd>
+{% endblock report %}
+
