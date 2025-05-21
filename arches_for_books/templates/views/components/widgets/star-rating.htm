@@ -9,27 +9,13 @@
 <div class="row widget-wrapper">
     <div class="form-group">
         <label class="control-label widget-input-label" for="" data-bind="text:label"></label>        
-        <!-- <div class="col-xs-12">
-            <input 
-                type="range" 
-                data-bind="
-                    attr: { min: min, max: max, step: step }"
-            >  
-        </div> -->
 
         <div class="rating">
-            <input id="rating1" type="radio" name="rating" value="1">
-            <label for="rating1">1</label>
-            <input id="rating2" type="radio" name="rating" value="2">
-            <label for="rating2">2</label>
-            <input id="rating3" type="radio" name="rating" value="3">
-            <label for="rating3">3</label>
-            <input id="rating4" type="radio" name="rating" value="4">
-            <label for="rating4">4</label>
-            <input id="rating5" type="radio" name="rating" value="5">
-            <label for="rating5">5</label>
-          </div>
-          
+            <!-- ko foreach: { data: stars, as: 'star' } -->
+            <input type="radio" name="rating" data-bind="attr: { id: 'rating' + star.value, value: star.value }, click: function(e){saveValue()}">
+            <label data-bind="attr: { for: 'rating' + star.value }, text: star.value"></label>
+            <!-- /ko -->
+        </div>          
 
     </div>
 </div>

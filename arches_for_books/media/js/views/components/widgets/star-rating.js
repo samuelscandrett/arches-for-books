@@ -17,10 +17,36 @@ import StarRatingWidgetTemplate from 'templates/views/components/widgets/star-ra
 var StarRatingWidget = function(params) {
     params.configKeys = ['min', 'max', 'step'];
     WidgetViewModel.apply(this, [params]);
-    console.log(this)
+
     var self = this;
 
-    // console.log(params.configKeys)
+
+    let maxFloat = parseFloat(self.max()); 
+    let stepFloat = parseFloat(self.step());
+
+    let numberOfStars = parseInt(self.max())
+    self.stars = ko.observableArray();
+    for (let i = 0; i < numberOfStars; i++) {
+        self.stars.push({value:i+1})
+    }
+    
+    // need an array of objects with each star portion
+    // 0 -> 5 with a new entry for every 0.25
+
+    // let numberOfStars = maxFloat;
+    // let totalNumberRadioInputs = maxFloat / stepFloat;
+
+    // self.stars.push({value:1});
+    // self.stars.push({value:2});
+    // self.stars.push({value:3});
+
+    // const numberOfStars = maxFloat / stepFloat
+
+    self.saveValue = function() {
+        console.log("SAVEEEE")
+    }
+
+    console.log(self.value)
 
 };
 
