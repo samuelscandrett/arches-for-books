@@ -6,16 +6,41 @@
 
 
 {% block form %}
-<div class="row widget-wrapper">
-    <div class="form-group">
-        <label class="control-label widget-input-label" for="" data-bind="text:label"></label>        
 
-        <div class="rating">
-            <!-- ko foreach: { data: stars, as: 'star' } -->
-            <input type="radio" name="rating" data-bind="attr: { id: 'rating' + star.value, value: star.value }, click: function(e){saveValue()}">
-            <label data-bind="attr: { for: 'rating' + star.value }, text: star.value"></label>
-            <!-- /ko -->
-        </div>          
+<div class="row widget-wrapper" data-bind="class: nodeCssClasses">
+    <div class="form-group">
+        <span class="control-label widget-input-label" data-bind="text:label"></span>
+        <!-- ko if: node -->
+        <i data-bind="css: {'ion-asterisk widget-label-required': node.isrequired}"></i>
+        <!-- /ko -->
+
+        <div class="col-xs-12">
+
+            <div class="rating" role="radiogroup" data-bind="foreach: { data: stars, as: 'star' }, attr:{'aria-label': label}">
+
+                <label class="form-radio form-normal form-text" 
+                        data-bind="attr: { for: 'rating' + star.value}, 
+                            
+                            onEnterkeyClick,
+                            onSpaceClick,
+                            click: function () {
+                                $parent.setOptionSelection(star.value, true);
+                            },
+                            css: {
+                                'active': $parent.isOptionSelected(),
+                                'disabled': $parent.disabled
+                            },"
+                        role="radio">
+
+
+               
+                </label>
+                        <input type="radio" name="rating"
+                        data-bind="attr: { id: 'rating' + star.value, value: star.value }">
+
+                
+            </div>
+        </div>
 
     </div>
 </div>
