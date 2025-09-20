@@ -71,6 +71,8 @@ var StarRatingWidget = function(params) {
         return selected;
     };
 
+    // https://medium.com/@psfonseka/creating-five-star-rating-components-with-react-and-pure-css-aa6f8316a7d4
+
 };
 
 

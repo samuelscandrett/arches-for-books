@@ -16,30 +16,14 @@
 
         <div class="col-xs-12">
 
-            <div class="rating" role="radiogroup" data-bind="foreach: { data: stars, as: 'star' }, attr:{'aria-label': label}">
-
-                <label class="form-radio form-normal form-text" 
-                        data-bind="attr: { for: 'rating' + star.value}, 
-                            
-                            onEnterkeyClick,
-                            onSpaceClick,
-                            click: function () {
-                                $parent.setOptionSelection(star.value, true);
-                            },
-                            css: {
-                                'active': $parent.isOptionSelected(),
-                                'disabled': $parent.disabled
-                            },"
-                        role="radio">
-
-
-               
-                </label>
-                        <input type="radio" name="rating"
-                        data-bind="attr: { id: 'rating' + star.value, value: star.value }">
-
-                
+            <!-- ko foreach: { data: stars, as: 'star' } -->
+            <div class="single-star-container" >
+                <div className="single-star-fill" >
+                    <img className="single-star-outline" src="{% webpack_static 'img/star.png' %}"></img>
+                </div>
             </div>
+            <!-- /ko -->
+
         </div>
 
     </div>
