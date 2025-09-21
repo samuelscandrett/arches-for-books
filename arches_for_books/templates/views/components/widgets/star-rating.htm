@@ -6,26 +6,17 @@
 
 
 {% block form %}
-
 <div class="row widget-wrapper" data-bind="class: nodeCssClasses">
     <div class="form-group">
         <span class="control-label widget-input-label" data-bind="text:label"></span>
         <!-- ko if: node -->
         <i data-bind="css: {'ion-asterisk widget-label-required': node.isrequired}"></i>
         <!-- /ko -->
-
         <div class="col-xs-12">
-
-            <!-- ko foreach: { data: stars, as: 'star' } -->
-            <div class="single-star-container" >
-                <div className="single-star-fill" >
-                    <img className="single-star-outline" src="{% webpack_static 'img/star.png' %}"></img>
-                </div>
+            <div class="input-group" data-bind="style: {width: width}">
+            <input type="number" data-bind="value: value, attr: {placeholder: placeholder, max: max, min: min, step: step, disabled: disable, 'aria-label': label}, style: {width: width}, valueUpdate: 'keyup'" class="form-control input-lg widget-input">
             </div>
-            <!-- /ko -->
-
         </div>
-
     </div>
 </div>
 {% endblock form %}
@@ -81,11 +72,25 @@
 
 
 {% block report %}
-<dt data-bind="text: label"></dt>
-<dd>
-    <iframe data-bind="attr: { src: YoutubeUrl }" width="560" height="315" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+<!-- ko foreach: stars -->
+<div class="single-star-container" >
+    <div class="single-star-fill" >
+        <img class="single-star-outline" src="{% webpack_static 'img/star.png' %}"></img>
+    </div>
+</div>
+<!-- /ko -->    
+
+
+<dt data-bind="text: label, class: nodeCssClasses"></dt>
+<dd data-bind="class: nodeCssClasses">
+    <div class='number-widget-report'>
+    <!-- ko if: displayValue -->
+    <span data-bind="text: displayValue()"></span>
+    <!-- /ko -->
+    <!-- ko ifnot: displayValue -->
+    <span data-bind="text: $root.translations.none"></span>
+    <!-- /ko -->
+    </div>
 </dd>
 {% endblock report %}
 

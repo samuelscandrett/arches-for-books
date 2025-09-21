@@ -15,17 +15,25 @@ import StarRatingWidgetTemplate from 'templates/views/components/widgets/star-ra
  */
 
 var StarRatingWidget = function(params) {
-    params.configKeys = ['min', 'max', 'step'];
+    params.configKeys = ['min', 'max', 'step', 'width', 'placeholder'];
 
     WidgetViewModel.apply(this, [params]);
 
     var self = this;
 
+    this.disable = ko.computed(() => {
+        return ko.unwrap(self.disabled) || ko.unwrap(self.uneditable); 
+    }, self);
+    
 
-    let maxFloat = parseFloat(self.max()); 
+    self.stars = [];
+
+    console.log("a", params, self.min)
+
+
     let stepFloat = parseFloat(self.step());
-
     let numberOfStars = parseInt(self.max())
+
     self.stars = ko.observableArray();
     for (let i = 0; i < numberOfStars; i++) {
         self.stars.push({value:i+1})
@@ -46,32 +54,39 @@ var StarRatingWidget = function(params) {
     // const numberOfStars = maxFloat / stepFloat
 
 
-    this.setOptionSelection = function(opt, selected) {
-        console.log(opt)
-        if (ko.unwrap(self.disabled) === false) {
-            if (selected) {
-                if (self.value() === opt) {
-                    self.value(null);
-                }
-                else {
-                    self.value(opt);
-                }
-            }
-        }
-        console.log(self.value())
-    };
+    // this.setOptionSelection = function(opt, selected) {
+    //     console.log(opt)
+    //     if (ko.unwrap(self.disabled) === false) {
+    //         if (selected) {
+    //             if (self.value() === opt) {
+    //                 self.value(null);
+    //             }
+    //             else {
+    //                 self.value(opt);
+    //             }
+    //         }
+    //     }
+    //     console.log(self.value())
+    // };
 
-    this.isOptionSelected = function() {
-        var selected = false;
-        var val = self.value();
-        if (val) {
-            selected = val;
-        }
-        console.log(selected)
-        return selected;
-    };
+    // this.isOptionSelected = function() {
+    //     var selected = false;
+    //     var val = self.value();
+    //     if (val) {
+    //         selected = val;
+    //     }
+    //     console.log(selected)
+    //     return selected;
+    // };
 
     // https://medium.com/@psfonseka/creating-five-star-rating-components-with-react-and-pure-css-aa6f8316a7d4
+
+    this.displayValue = ko.pureComputed(function() {
+        if (self.value() !== null && self.value() !== undefined) {
+            return self.value().toString();
+        }
+    }, self);
+
 
 };
 

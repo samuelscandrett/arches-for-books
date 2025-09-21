@@ -26,8 +26,8 @@
 } */
 
 .single-star-outline {
-  /* height: 36px; 
-  width: 31px; */
+  height: 36px; 
+  width: 31px;
 }
 
 .single-star-fill {
@@ -38,7 +38,7 @@
 }
 
 .single-star-container {
-  /* height: 36px; 
-  width: 31px; */
+  height: 36px; 
+  width: 31px;
   display: inline-block;
 }
